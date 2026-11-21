@@ -15,7 +15,7 @@
     <header class="hero">
       <p class="eyebrow">Practice website questionnaire</p>
       <h1>Help us plan your dental practice website</h1>
-      <p class="lead">Please take a few minutes to answer these questions. Your answers will help us decide whether a simple brochure website is enough, or whether you also need a patient-facing site and an admin system for bookings and records.</p>
+      <p class="lead">Please take a few minutes to answer these questions. Your answers will help us decide whether a simple brochure website is enough, or whether you also need a patient-facing site and an admin system for bookings.</p>
     </header>
 
     <form action="https://formsubmit.co/d25eddc47b613f6b07faa2dcef5a06fc" method="POST">
@@ -141,10 +141,6 @@
             <label class="choice"><input type="radio" name="Show prices" value="Not sure yet"><span>Not sure yet</span></label>
           </div>
         </fieldset>
-        <div class="field">
-          <label class="q" for="hmo">Which HMOs or insurers does the practice accept?</label>
-          <textarea id="hmo" name="HMOs and insurers accepted" placeholder="List them, or write “none” or “not sure”."></textarea>
-        </div>
 
         <fieldset>
           <legend class="q">9. Which of these would you like on the site?</legend>
@@ -158,7 +154,7 @@
 
         <div class="field">
           <label class="q" for="languages">10. Does the site need to be in any language besides English?</label>
-          <input id="languages" name="Languages besides English" type="text" placeholder="For example: Yoruba, Hausa, Igbo, or English only.">
+          <input id="languages" name="Languages besides English" type="text" placeholder="For example: isiZulu, isiXhosa, Afrikaans, or English only.">
         </div>
       </section>
 
@@ -176,7 +172,7 @@
         </fieldset>
 
         <div class="field">
-          <label class="q" for="brief">12. Please share a short brief about the practice (who you are, what you offer, what makes you different). We'll polish it into the website text.</label>
+          <label class="q" for="brief">12. Please share a short brief about the practice (who you are, what you offer, what makes you different).</label>
           <textarea id="brief" name="Practice brief" placeholder="A few paragraphs is enough. It does not need to be polished."></textarea>
         </div>
 
@@ -190,37 +186,14 @@
         <p class="section-kicker">Section 4</p>
         <h2>Practical details</h2>
 
-        <div class="grid-2">
-          <div class="field">
+        <div class="field">
             <label class="q" for="budget">14. What is your budget for the website?</label>
             <input id="budget" name="Budget" type="text" placeholder="A range is fine, or “still deciding”.">
           </div>
-          <div class="field">
-            <label class="q" for="launch">When would you like the site to go live?</label>
-            <input id="launch" name="Target launch date" type="text" placeholder="For example: January 2027, or as soon as possible.">
-          </div>
-        </div>
+
 
         <fieldset>
-          <legend class="q">15. Who will update the site after launch?</legend>
-          <div class="choices">
-            <label class="choice"><input type="radio" name="Who updates the site after launch" value="I will update it"><span>I will update it</span></label>
-            <label class="choice"><input type="radio" name="Who updates the site after launch" value="Someone in the practice"><span>Someone in the practice</span></label>
-            <label class="choice"><input type="radio" name="Who updates the site after launch" value="I would like you to handle updates"><span>I would like you to handle updates</span></label>
-            <label class="choice"><input type="radio" name="Who updates the site after launch" value="Not sure yet"><span>Not sure yet</span></label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="q">Would you like a hosting and maintenance plan?</legend>
-          <div class="choices">
-            <label class="choice"><input type="radio" name="Hosting and maintenance plan" value="Yes"><span>Yes</span></label>
-            <label class="choice"><input type="radio" name="Hosting and maintenance plan" value="No"><span>No</span></label>
-            <label class="choice"><input type="radio" name="Hosting and maintenance plan" value="Tell me more"><span>Tell me more</span></label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend class="q">16. Is the practice already on any of these?</legend>
+          <legend class="q">15. Is the practice already on any of these?</legend>
           <p class="hint">Select all that apply. You can add the page name or link below.</p>
           <div class="choices">
             <label class="choice"><input type="checkbox" name="Already on: Google Maps or Google Business" value="Yes"><span>Google Maps or Google Business</span></label>
@@ -282,14 +255,6 @@
             </div>
           </div>
           <div class="feature">
-            <p>Patient records and treatment notes stored online <span class="note">Health data needs strong privacy protections, including Nigeria’s NDPA.</span></p>
-            <div class="pills" role="radiogroup" aria-label="Patient records and treatment notes stored online">
-              <label class="pill"><input type="radio" name="Feature: Patient records / treatment notes stored online" value="Yes" required><span>Yes</span></label>
-              <label class="pill"><input type="radio" name="Feature: Patient records / treatment notes stored online" value="Maybe later"><span>Maybe later</span></label>
-              <label class="pill"><input type="radio" name="Feature: Patient records / treatment notes stored online" value="No"><span>No</span></label>
-            </div>
-          </div>
-          <div class="feature">
             <p>Multiple staff users, with different roles</p>
             <div class="pills" role="radiogroup" aria-label="Multiple staff users with roles">
               <label class="pill"><input type="radio" name="Feature: Multiple staff users with roles" value="Yes" required><span>Yes</span></label>
@@ -305,6 +270,15 @@
               <label class="pill"><input type="radio" name="Feature: Reports" value="No"><span>No</span></label>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <p class="section-kicker">Section 6</p>
+        <h2>Anything else</h2>
+        <div class="field">
+          <label class="q" for="other">Other details you'd like us to know</label>
+          <textarea id="other" name="Other details" placeholder="Anything else that would help us plan the website."></textarea>
         </div>
       </section>
 
